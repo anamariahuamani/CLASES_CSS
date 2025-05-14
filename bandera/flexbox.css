@@ -1,0 +1,61 @@
+.principal {
+    height: 600px;
+    background: green;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  article {
+    height: 500px;
+    width: 200px;
+    background: red;
+    
+  }
+  
+  .medio {
+    height: 500px;
+    width: 200px;
+    background: white;
+  }
+
+
+
+
+  .principal {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+  }
+  
+  .azul {
+    background: blue;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .blanco {
+    background: white;
+    flex: 25;
+    height: 150px;
+    width: 250px;
+  }
+  
+  .rojo {
+    background: red;
+    height: 150px;
+    width: 150px;
+  }
+  
+  .estrella {
+    color: white;
+    font-size: 40px;
+  }
+  
