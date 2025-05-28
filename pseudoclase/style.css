@@ -1,0 +1,21 @@
+main{
+    background: red;
+    height: 100vh;
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+ main section{
+background: #7c0f0f;
+height: 40px;
+width: 40px;
+transition: all 2s;
+}
+section:hover{
+    background: yellow;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    rotate: 45deg;
+}
+

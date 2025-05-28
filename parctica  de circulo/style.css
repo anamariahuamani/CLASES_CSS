@@ -1,0 +1,24 @@
+main {
+  background: #00ff2a;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main section {
+  background: hsl(266, 78%, 27%);
+  height: 100px;
+  width: 100px;
+  border-radius: 50%; /* Hace que sea un círculo */
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Sombra para efecto flotante */
+}
+
+main section:hover {
+  background: yellow;
+  height: 120px;
+  width: 120px;
+  transform: rotate(45deg);
+}
+  

@@ -1,0 +1,28 @@
+main{
+    background: #00ff2a;
+    height: 100vh;
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+main section{
+    background: hsl(266, 78%, 27%);
+height: 40px;
+width: 40px;
+transition: all 3sg;
+
+}
+section:hover{
+    background: yellow;
+    height: 100px;
+    width: 100px;
+    rotate: 45deg;
+}
+main section {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 40px solid hsl(266, 78%, 27%);
+}
+   
